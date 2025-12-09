@@ -1,20 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int arr[6]={1,2,3,4,6};
+    int arr[6]={1,2,3,4,5};
     int n=5;
     int ITEM=5;
-    int p=5;
-    if (p>n)
-    {
-        arr[p-1]=ITEM;
-        n=p;
-    }
-    else if(arr[p-1]=6)
+    int p=3;
+    if(arr[p-1]=5)
     {
         arr[p-1]=ITEM;
     }
-    else{
+    else
+    {
 
     }
    for(int i=0; i<n; i++)
@@ -23,3 +19,4 @@ int main()
     }
    return 0;
 }
+

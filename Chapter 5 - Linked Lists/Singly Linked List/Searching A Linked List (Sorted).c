@@ -7,7 +7,7 @@ struct NODE
 };
 void Search(struct NODE *ptr, int ITEM)
 {
-    int LOC=0;
+    struct NODE *LOC=0;
     while(ptr!= NULL)
     {
         if(ITEM<ptr->INFO)
@@ -54,6 +54,7 @@ int main()
     N3->INFO=10;
     N3->LINK=NULL;
 
-    Search(START,3);
+    Search(START->,3);
     return 0;
 }
+
